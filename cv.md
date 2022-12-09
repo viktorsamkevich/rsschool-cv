@@ -4,7 +4,7 @@
 ***
 
 ## **Contacts**
-- **Location:** Warszawa, Poland
+- **Location:** Minsk, Belarus
 - **Phone in Belarus:** +375-29-228-65-66
 - **Phone in Poland:** +48-452-577-838
 - **Telegram:** [@viktorsamkevich](https://t.me/viktorsamkevich)
