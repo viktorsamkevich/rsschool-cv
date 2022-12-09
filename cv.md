@@ -32,3 +32,14 @@
 - Git
 
 ***
+
+## **Code Example**
+```
+function sum(a, b, c) {
+  return a + b + c;
+}
+let result = sum(1, 2, 3);
+alert( result );
+```
+
+***
