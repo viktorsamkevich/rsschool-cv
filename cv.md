@@ -23,3 +23,12 @@
 - Developed dealer network of a large hydraulic holding.
 
 ***
+
+## **Skills**
+- HTML
+- CSS
+- JavaScript (Basic)
+- Python (Basic)
+- Git
+
+***
