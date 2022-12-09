@@ -54,3 +54,17 @@ company.
     + The main purpose of "SALEO" Holding is the production of high-quality hydraulic components in accordance with global technologies using high-tech modern equipment allowing the production of competitive products.
 
 ***
+
+## **Education**
+* **University:** 
+    * Belarusian State Agrarian Technical University, Researcher in Technical Sciences
+    * Belarusian State Agrarian Technical University, Master of Engineering, Technical service in the agricultural sector
+    * Belarusian State Agrarian Technical University, Bachelor, Repair and service production in agriculture
+* **Courses:**
+    * [CS50 lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+
+***
+
+## **LANGUAGES**
+* English: A2
+* Russian: Native 
