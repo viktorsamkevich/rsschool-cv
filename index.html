@@ -19,35 +19,104 @@
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="contacts" class="nav-link">Сontacts</a></li>
-                    <li class="nav-item"><a href="summary" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="english" class="nav-link">English</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Сontacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title"></h1>
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/avatar.jpg" alt="avatar" class="section-profile-avatar">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Viktor Samkevich</h1>
+                    <h3 class="sub-title">Junior Front-End Developer</h3>
+                </div>
             </section>
-            <section class="section" id="contacts"></section>
-            <section class="section" id="summary"></section>
-            <section class="section" id="skills"></section>
-            <section class="section" id="code"></section>
-            <section class="section" id="courses"></section>
-            <section class="section" id="projects"></section>
-            <section class="section" id="education"></section>
-            <section class="section" id="english"></section>
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Location: Minsk, Belarus</li>
+                    <li class="section-item contacts-item">Telegram: <a
+                            href="https://t.me/viktorsamkevich">@viktorsamkevich</a></li>
+                    <li class="section-item contacts-item">Email: <a href="malito:viktorsamkevich@gmail.com"
+                            title="email">viktorsamkevich@gmail.com</a></li>
+                    <li class="section-item contacts-item">GitHub: <a href="https://github.com/viktorsamkevich"
+                            title="github">viktorsamkevich</a></li>
+                    <li class="section-item contacts-item">Linkedin: <a
+                            href="https://www.linkedin.com/in/viktorsamkevich/" title="linkedin">My Linkedin profile</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-summary" id="summary">
+                <h2 class="section-title">About me</h2>
+                <p>Master's degree, researcher in technical sciences. Author of scientific articles in the field of
+                    resource-saving technologies. For nine years actively engaged in the marketing of complex technical
+                    products, including for export. Implemented addressable storage in the warehouse of a dealer of a
+                    global manufacturer of agricultural machinery. Implemented modern software tools to automate and
+                    improve the efficiency of sales, service and warehouse operations. Developed dealer network of a
+                    large hydraulic holding.</p>
+            </section>
+            <section class="section section-skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">HTML</li>
+                    <li class="section-item contacts-item">CSS</li>
+                    <li class="section-item contacts-item">JavaScript (Basic)</li>
+                    <li class="section-item contacts-item">Python (Basic)</li>
+                    <li class="section-item contacts-item">Git</li>
+                </ul>
+            </section>
+            <section class="section section-code" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre><code>
+function myFunction(p1, p2) {
+    return p1 * p2;
+    }</code></pre>
+            </section>
+            <section class="section section-courses" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">RS School: <a href="https://rs.school/js-stage0/" title="Stage 0">JavaScript/Front-end. Stage 0</a></li>
+                    <li class="section-item contacts-item">CS50: <a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA" title="CS 50">lectures</a>
+                    </li>
+            </section>
+            <section class="section section-projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">CV1: <a href="https://viktorsamkevich.github.io/rsschool-cv/cv" title="My CV.md">My CV in markdown.</a></li>
+                    <li class="section-item contacts-item">CV2: <a href="https://viktorsamkevich.github.io/rsschool-cv/" title="My CV2">My 2 version of CV.</a></li>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Belarusian State Agrarian Technical University, Researcher in Technical Sciences</li>
+                    <li class="section-item contacts-item">Belarusian State Agrarian Technical University, Master of Engineering, Technical service in the agricultural sector</li>
+                    <li class="section-item contacts-item">Belarusian State Agrarian Technical University, Bachelor, Repair and service production in agriculture</li>
+                </ul>
+            </section>
+            <section class="section section-languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">English:A2</li>
+                    <li class="section-item contacts-item">Russian: Native</li>
+                    <li class="section-item contacts-item">Belarusian: Native</li>
+                </ul>
+            </section>
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container footer-container">
+            <div>© 2022 <a href="https://github.com/viktorsamkevich" class="github nav-link">Viktor Samkevich</a></div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
     </footer>
 </body>
 
